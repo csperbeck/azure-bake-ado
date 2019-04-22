@@ -16,6 +16,8 @@
     "clean:build:test": "npm run clean && npm run bootstrap && npm run compile && npm run test",
     "clean:build": "npm run clean && npm run bootstrap && npm run compile",
     "load:build": "npm run bootstrap && npm run compile"
-    
+  },
+  "dependencies": {
+    "tfx-cli": "^0.7.3"
   }
 }

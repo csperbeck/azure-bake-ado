@@ -5,6 +5,11 @@
 0 silly argv   '$0': 'node_modules\\lerna\\cli.js' }
 1 notice cli v3.13.3
 2 verbose rootPath C:\Users\csperbeck\source\repos\azure-bake-ado
-3 error JSONError: Unexpected token } in JSON at position 384 while parsing near '...r src/tests.ts",  },  "author": "Tan...' in tasks\mix\package.json
-3 error     at module.exports (C:\Users\csperbeck\source\repos\azure-bake-ado\node_modules\parse-json\index.js:26:19)
-3 error     at parse (C:\Users\csperbeck\source\repos\azure-bake-ado\node_modules\load-json-file\index.js:8:29)
+3 info clean removing C:\Users\csperbeck\source\repos\azure-bake-ado\tasks\mix\node_modules
+4 silly rimrafDir C:\Users\csperbeck\source\repos\azure-bake-ado\tasks\mix\node_modules
+5 info clean removing C:\Users\csperbeck\source\repos\azure-bake-ado\tasks\serve\node_modules
+6 silly rimrafDir C:\Users\csperbeck\source\repos\azure-bake-ado\tasks\serve\node_modules
+7 verbose rimrafDir removed C:\Users\csperbeck\source\repos\azure-bake-ado\tasks\serve\node_modules
+8 error Error: Command failed: C:\Program Files\nodejs\node.exe C:\Users\csperbeck\source\repos\azure-bake-ado\node_modules\rimraf\bin.js --no-glob C:\Users\csperbeck\source\repos\azure-bake-ado\tasks\mix\node_modules\
+8 error     at makeError (C:\Users\csperbeck\source\repos\azure-bake-ado\node_modules\execa\index.js:174:9)
+8 error     at Promise.all.then.arr (C:\Users\csperbeck\source\repos\azure-bake-ado\node_modules\execa\index.js:278:16)
